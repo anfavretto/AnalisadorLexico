@@ -1,10 +1,10 @@
 ﻿namespace AnalizadorLexico
 {
-    public class Arithmetic_Op : Token 
+    public class ArithmeticOp : Token 
     {
         public ArithmeticOperatorType ArithmeticOperatorType { get; set; }
 
-        public Arithmetic_Op(ArithmeticOperatorType arithmeticOperatorType) : base(TokenType.Arithmetic_Op)
+        public ArithmeticOp(ArithmeticOperatorType arithmeticOperatorType) : base(TokenType.Arithmetic_Op)
         {
             this.ArithmeticOperatorType = arithmeticOperatorType;
         }
