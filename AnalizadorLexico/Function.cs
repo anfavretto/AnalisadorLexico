@@ -6,7 +6,7 @@
 
         public Function(string name) : base(TokenType.Function)
         {
-
+            Name = name;
         }
     }
 }

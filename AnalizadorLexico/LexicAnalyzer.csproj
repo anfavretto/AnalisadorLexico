@@ -43,17 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArithmeticOperatorType.cs" />
     <Compile Include="ArithmeticOp.cs" />
+    <Compile Include="ArithmeticOperatorType.cs" />
+    <Compile Include="RelationalOperatorType.cs" />
+    <Compile Include="RelationalOp.cs" />
+    <Compile Include="Comma.cs" />
     <Compile Include="Equal.cs" />
     <Compile Include="Function.cs" />
     <Compile Include="Id.cs" />
+    <Compile Include="LBracket.cs" />
     <Compile Include="LogicOperatorType.cs" />
     <Compile Include="LogicOp.cs" />
     <Compile Include="LParent.cs" />
     <Compile Include="Numeric.cs" />
     <Compile Include="MainProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RBracket.cs" />
     <Compile Include="Reserved_Word.cs" />
     <Compile Include="RParent.cs" />
     <Compile Include="Semicolon.cs" />

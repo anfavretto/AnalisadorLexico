@@ -1,0 +1,6 @@
+int main()
+{
+	funcao1();
+	funcao2();
+	return 1;
+}

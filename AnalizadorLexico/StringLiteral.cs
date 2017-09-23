@@ -6,7 +6,7 @@
 
         public StringLiteral(string content) : base(TokenType.String_Literal)
         {
-
+            Content = content;
         }
     }
 }

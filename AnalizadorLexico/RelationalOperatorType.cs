@@ -1,6 +1,6 @@
 ﻿namespace AnalizadorLexico
 {
-    public enum ArithmeticOperatorType
+    public enum RelationalOperatorType
     {
         GreaterThan = 1,
         LessThan = 2,
