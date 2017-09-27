@@ -6,5 +6,10 @@
         {
             
         }
+
+        public override string GetValue()
+        {
+            return ",";
+        }
     }
 }

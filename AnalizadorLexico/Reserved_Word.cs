@@ -8,5 +8,9 @@
         {
             this.Word = word;
         }
+        public override string GetValue()
+        {
+            return Word;
+        }
     }
 }

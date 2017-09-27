@@ -354,7 +354,12 @@ namespace AnalizadorLexico
                     }
                 }
             }
-            int final = 1;
+            
+            foreach (var token in tokenList)
+            {
+                Console.Write("[{0},{1}] ", token.Type.ToString(), token.GetValue());
+            }
+            Console.ReadKey();
         }
 
         private static List<string> ReadFile(string fileName)

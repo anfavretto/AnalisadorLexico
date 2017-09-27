@@ -14,5 +14,9 @@
         {
             this.DoubleValue = value;
         }
+        public override string GetValue()
+        {
+            return IntValue.HasValue ? IntValue.Value.ToString() : DoubleValue.Value.ToString();
+        }
     }
 }

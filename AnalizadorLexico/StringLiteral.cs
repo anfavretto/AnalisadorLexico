@@ -8,5 +8,9 @@
         {
             Content = content;
         }
+        public override string GetValue()
+        {
+            return Content;
+        }
     }
 }

@@ -8,5 +8,7 @@
         {
             this.Type = type;
         }
+
+        public abstract string GetValue();
     }
 }

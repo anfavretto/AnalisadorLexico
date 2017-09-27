@@ -8,5 +8,9 @@
         {
             this.RelationalOperatorType = relationalOperatorType;
         }
+        public override string GetValue()
+        {
+            return RelationalOperatorType.ToString();
+        }
     }
 }

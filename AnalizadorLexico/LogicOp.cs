@@ -8,5 +8,9 @@
         {
             this.LogicOperatorType = logicOperatorType;
         }
+        public override string GetValue()
+        {
+            return LogicOperatorType.ToString();
+        }
     }
 }

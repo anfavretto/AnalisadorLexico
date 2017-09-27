@@ -8,5 +8,9 @@
         {
             Name = name;
         }
+        public override string GetValue()
+        {
+            return Name;
+        }
     }
 }

@@ -8,5 +8,9 @@
         {
             this.Value = value;
         }
+        public override string GetValue()
+        {
+            return Value;
+        }
     }
 }
